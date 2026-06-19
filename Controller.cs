@@ -4,7 +4,33 @@ using System.Text;
 
 namespace ConnectFour
 {
-    internal class Controller
+   public class Controller
     {
+        private Player player1;
+        private Player player2;
+        private ConsoleView view;
+        // private Board board;
+
+        public Controller()
+        {
+            view = new ConsoleView();
+        }
+
+        public void Start()
+        {
+            view.ShowWelcome();
+            
+        }
+
+        private void PlayGame()
+        {
+           
+        }
+
+        private bool CheckWin()
+        {
+            
+            return false;
+        }
     }
 }
