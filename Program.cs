@@ -1,10 +1,11 @@
-﻿namespace ConnectFour
+namespace ConnectFour
 {
-    internal class Program
+    class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Controller game = new Controller();
+            game.Start();
         }
     }
 }
