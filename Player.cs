@@ -14,8 +14,7 @@ namespace ConnectFour
             Name = name;
             Symbol = symbol;
         }
-
-        // Each player must choose a column
+        
         public abstract int ChooseColumn();
     }
 }
